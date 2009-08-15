@@ -2,13 +2,11 @@
 
 The sole purpose of this repository is to maintain a collection of all the Symphony CMS extensions available from the official [Downloads](http://symphony-cms.com/downloads/) page or any other extensions that are being developed on GitHub, whether officially released or not.
 
-To keep your collection up-to-date, just update the submodules.
+This Ensemble includes the [Symphony 2.0.6](http://github.com/symphony/symphony-2/) core application plus 120 extensions, so you don't have to worry about having to update submodules. Plus, if you just want to download a ZIP file, that is available from the downloads page.
 
-	git submodule update --init
+If you prefer using Git to maintain submodules of each extension, refer to the [extensions](http://github.com/bauhouse/extensions/) repository. 
 
-That should make things easier. If you create or discover any more, just fork, add and send a pull request to keep the library as current as possible.
-
-**Update:** As of 13 August 2009, there are 120 extensions in the Unofficial Symphony CMS Extensions Library.
+**Update:** As of 15 August 2009, there are 120 extensions in the Unofficial Symphony CMS Extensions Library.
 
 ## Symphony CMS Extensions
 
