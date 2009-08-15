@@ -1,0 +1,32 @@
+.field-flexdate .formats,
+.field-flexdate .options {
+	font-size: 90.91%;
+	list-style: none;
+	margin: -1em 0 1.5em -6px;
+	overflow: hidden;
+}
+.field-flexdate .options {
+	display: none;
+}
+.field-flexdate .formats li,
+.field-flexdate .options li {
+	float: left;
+	word-spacing: -1px;
+	text-decoration: none;
+}
+.field-flexdate .options li {
+	margin: 0 12px 0 0;
+}
+.field-flexdate .formats span,
+.field-flexdate .options span {
+	color: #888877;
+	margin: 0 0 0 6px;
+}
+.field-flexdate .formats span:hover,
+.field-flexdate .options span:hover {
+	color: #555544;
+	cursor: pointer;
+}
+.field-flexdate .options span.active {
+	color:  #000000;
+}

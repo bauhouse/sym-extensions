@@ -1,0 +1,11 @@
+.selectboxfilter {
+	margin: 0;
+}
+.selectboxfilter label {
+	margin: 0 0 0.3em 0;
+}
+.selectboxfilter input {
+	margin: 0 0 1.75em 0;
+	padding: 2px;
+	width: 98.4%;
+}

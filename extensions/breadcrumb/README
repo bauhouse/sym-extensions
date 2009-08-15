@@ -1,0 +1,40 @@
+Breadcrumb
+------------------------------------
+
+Version: 1.0
+Author: Alistair Kearney (alistair@symphony21.com)
+Build Date: 2nd Jan 2009
+Requirements: Latest Symphony 2 build, ASDC Library v1.0
+
+Includes a Data Source that, based on the current page, will provide a focused XML structure representing the
+parent hierarchy. It is more efficient than a conventional Navigation DS, since there is less redundant data
+and is much easier to traverse with xpath.
+
+
+[REQUIREMENTS]
+
+- This Extension relies on the "Advanced Symphony Database Connector" (ASDC) library. Read more about it 
+  at http://github.com/pointybeard/asdc/tree/master and grab the latest stable version using 
+  "git clone git://github.com/pointybeard/asdc.git". 
+
+
+[INSTALLATION]
+
+** Note: The latest version can always be grabbed with "git clone git://github.com/pointybeard/breadcrumb.git"
+
+I. Install "ASDC" as mentioned in requirements ("git clone git://github.com/pointybeard/asdc.git")
+
+1. Upload the 'breadcrumb' folder in this archive to your Symphony 'extensions' folder.
+
+2. Enable it by selecting the "Breadcrumb", choose Enable from the with-selected menu, then click Apply.
+
+3. Add the "Breadcrumbs" Data Source to your page
+
+
+[EXAMPLE XML]
+
+	<breadcrumb>
+		<page path="about">About</page>
+		<page path="about/contact">Contact</page>
+		<page path="about/contact/office">Our Office</page>
+	</breadcrumb>

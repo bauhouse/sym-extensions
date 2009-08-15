@@ -1,0 +1,20 @@
+a.help {
+	padding-left: 51px;
+	background-image: url('images/help.png');
+}
+
+#help {
+	display: none;
+}
+#help.settings {
+	display: block;
+}
+
+p.help a.ysboss {
+	display: block;
+	width: 63px;
+	padding-top: 22px;
+	background-image: url('images/boss_logo.png');
+	background-repeat: no-repeat;
+	background-position: top left;
+}

@@ -1,0 +1,36 @@
+.imageuploadfield label.file {
+	border-bottom: none;
+}
+.imageuploadfield .output {
+	background: #f5f5f3;
+	border: 1px solid #e4e4de;
+	margin: -1.5em 0 1.75em 0;
+	overflow: hidden;
+	padding: 12px;
+	text-align: left;
+}
+.subsection .imageuploadfield .output {
+	background: #eeeedf;
+	border: 1px solid #ccccbb;
+}
+.subsection .selected .output {
+	background: #617dc5;
+	border-color: #758fce;
+}
+.imageuploadfield .output img {
+	cursor: pointer;
+}
+
+.subsectionfield-single .imageuploadfield .output {
+	background: #ffffff;
+}
+
+.imageuploadfield-helper {
+	background: #000000;
+	border-radius: 1em;
+	-moz-border-radius: 1em;
+	-webkit-border-radius: 1em;
+	color: #ffffaa;
+	padding: 0.5em 1em;
+	z-index: 10000;
+}

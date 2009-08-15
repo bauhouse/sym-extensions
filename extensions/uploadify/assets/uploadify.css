@@ -1,0 +1,47 @@
+.fileUploaderBtn {
+	float: left;
+}
+
+.fileUploadQueue {
+	float: left;
+	border: none;
+	margin-left: 10px;
+}
+
+fieldset.secondary .fileUploadQueue {
+	float: none;
+	clear: both;
+	margin: 2px 0 0 0;
+}
+
+.fileUploadQueue span {
+	border: none;
+	padding: none;
+	margin: 0;
+	padding: 0;
+	color: #222;
+}
+
+.fileUploadQueue span.fileName,
+.fileUploadQueue span.percentage {
+	display: inline;
+}
+
+.fileUploadQueueItem {
+	width: 230px;
+}
+.fileUploadQueueItem .cancel {
+	float: right;
+}
+.fileUploadProgress {
+	background-color: #FFFFFF;
+	border-top: 1px solid #808080;
+	border-left: 1px solid #808080;
+	border-right: 1px solid #C5C5C5;
+	border-bottom: 1px solid #C5C5C5;
+	margin-top: 5px;
+	width: 100%;
+}
+.fileUploadProgressBar {
+	background-color: #81b934;
+}

@@ -1,0 +1,25 @@
+/*-----------------------------------------------------------------------------
+	Styles for 'Textformatter Labels' extension
+-----------------------------------------------------------------------------*/
+
+.textformatter-labels {
+	color: #aaaa99;
+	font-style: normal;
+}
+
+.textformatter-labels a:link, 
+.textformatter-labels a:visited {
+	color: #aaaa99;
+	text-decoration: none;
+}
+
+.textformatter-labels a:focus, 
+.textformatter-labels a:hover {
+	color: #5072bf;
+	text-decoration: underline;
+}
+
+/*just in case...*/
+.textformatter-labels a img {
+	border: none;
+}

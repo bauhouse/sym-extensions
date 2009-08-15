@@ -1,0 +1,23 @@
+.seomanager_group {
+	background: #f5f5f3;
+	border: 1px solid #e4e4de;
+	display: block;
+	margin: 1.5em 0;
+	padding: 0.5em 0;
+}
+.seomanager_group p.help {
+	margin: -0.7em 0 1em 1.5em;
+}
+.seomanager_group input {
+	padding: 2px;
+	width: 4em !important;
+}
+.seomanager_group label {
+	margin: 1em 1.5em;
+}
+.seomanager_group label input {
+	margin-bottom: 0.2em;
+	padding: 0;
+	vertical-align: bottom;
+	width: auto !important;
+}

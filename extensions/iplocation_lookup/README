@@ -1,0 +1,26 @@
+IP Location Lookup
+------------------------------------
+
+Version: 1.0
+Author: Alistair Kearney (alistair@symphony21.com)
+Build Date: 4th May 2009
+Requirements: Symphony 2.0.2 or later
+
+Uses the http://www.hostip.info service, plus the users IP address to find their 
+location as a 3 character country code.
+
+[INSTALLATION]
+
+** Note: The latest version can alway be grabbed with "git clone git://github.com/pointybeard/iplocation_lookup.git"
+
+1. Upload the 'iplocation_lookup' folder in this archive to your Symphony 'extensions' folder.
+
+2. Enable it by selecting "IP Location Lookup", choose Enable from the with-selected menu, then click Apply.
+
+
+[USAGE]
+
+1. Add "IP Location Lookup" Data source to your page
+
+2. You will notice a <ip-location-lookup> element in your page XML. It will contain the 3 
+letter country code if successful, or an <error> element if not.

@@ -1,0 +1,24 @@
+table {
+	border: 1px solid #eeeeee;
+	border-bottom: none;
+	border-spacing: 0;
+	font-size: 1.2em;
+	font-family: monospace;
+	margin: 1em 0 2em 0;
+	width: 100%;
+}
+table tr:hover {
+	background: #ffffdd;
+}
+table tr td {
+	border-bottom: 1px solid #eeeeee;
+	padding: 0.3em 1em;
+	vertical-align: top;
+}
+table tr td:last-child {
+	color: #aaaaaa;
+	text-align: right;
+	padding-left: 2em;
+	white-space: nowrap;
+	width: 1%;
+}

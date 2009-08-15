@@ -1,0 +1,61 @@
+Mediathek
+------------------------------------
+
+Version: 1.1.3
+Author: Nils Hörrmann (post@nilshoerrmann.de)
+Build Date: 13th March 2009
+Requirements: Symphony 2.0
+
+
+[INSTALLATION]
+
+1. Upload the "mediathek" folder in this archive to your Symphony "extensions" folder.
+
+2. Enable it by selecting the "Field: Mediathek", choose Enable from the with-selected menu, then click Apply.
+
+3. You can now add the "Mediathek" field to your sections.
+
+
+[UPDATE]
+
+1. Deleted the old "mediathek" folder in your Symphony "extensions" folder and replace it with the new one in this archive.
+
+2. Update your database by enabling the "Field: Mediathek" under "Extensions" in your Symphony backend (see installation, section 2).
+
+3. IMPORTANT: Go to each section that uses a "Mediathek" field and resave it. Otherwise the extension will stop working!
+
+4. PLEASE NOTE: Be aware that due to some changes in the data source output (see change log) your XSL templates will need some tender love and care.
+
+
+[CHANGE LOG]
+
+Version 1.1.3 - 13th March 2009
+
+- [fixed]   fetch correct id after creating new entry
+- [fixed]   invisible preview link
+
+Version 1.1.2 - 5th March 2009
+
+- [fixed]   changed color handling on drop
+- [fixed]   corrected regex used to determine id of newly created items
+
+Version 1.1.1 - 20th February 2009
+
+- [added]   Improved script detection
+- [fixed]   Added missing option to exclude tags while filtering
+
+Version 1.1 - 16th February 2009
+
+- [fixed]   Data sources will return file information instead of IDs
+- [fixed]   Allow multiple Mediathek fields in the same section
+- [added]   Option to toggle between single or multiple select mode
+- [added]   Allow data source sorting for single select Mediathek fields
+- [added]   Search functionality
+- [added]   Tag and category filter
+- [added]   Option to toggle entry overview information (file name or file count)
+- [added]   German translation
+- [removed] File count for opened and closed Mediathek
+
+Version 1.0 - 11th January 2009
+
+- Initial release

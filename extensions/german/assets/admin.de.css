@@ -1,0 +1,15 @@
+a.create {
+	padding-left: 84px;
+	background: #81b934 url("create.de.png");
+}
+
+a.configure {
+	padding-left: 86px;
+	background-image: url("configure.de.png");
+}
+
+button.delete {
+	width: 58px;
+	background-image: url("delete.de.png");
+	text-indent: 200%;
+}

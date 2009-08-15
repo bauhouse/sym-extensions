@@ -1,0 +1,25 @@
+Field: Signed File Upload
+-------------------------------------------------------------------------------
+
+Version: 1.02
+Author: Tony Arnold <tony@tonyarnold.com>
+Build Date: Friday, 31 July 2009
+Requirements: Symphony 2.0.2 or greater.
+
+Generates a DSA signature (based upon a key you provide) for uploaded files. I use this to generate my Sparkle appcasts. This is an initial version, and does not do any checking against the signature when downloading. The filename will be made unique on upload.
+
+
+Requirements
+-------------------------------------------------------------------------------
+
+OpenSSL binaries must be available on the server you're running your site on.
+
+
+Installation
+-------------------------------------------------------------------------------
+
+1. Upload the 'signeduploadfield' folder in this archive to your Symphony 'extensions' folder.
+
+2. Enable the extension by selecting the "Field: Signed File Upload", then choosing "Enable" from the with-selected menu, then click "Apply".
+
+3. You can now add the "Signed File Upload" field to your sections, and files will generate a DSA signature when uploading. If you don't already have a private SSL key to use, I've included a simple ruby script to generate one - 'generate_keys.rb'. Use it if you need to.

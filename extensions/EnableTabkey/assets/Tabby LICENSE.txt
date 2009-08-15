@@ -1,0 +1,1 @@
+This extension makes heavy use of Ted Devito's Tabby. See the licensing-information on http://teddevito.com/demos/textarea.html

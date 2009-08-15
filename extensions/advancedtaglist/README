@@ -1,0 +1,26 @@
+Advanced Taglist
+------------------------------------
+
+******** PLEASE DO NOT USE THIS EXTENSION YET. IT'S NOT READY!! ***********
+
+
+
+
+
+
+
+Version: 1.0
+Author: Alistair Kearney (alistair@symphony21.com)
+Build Date: 22nd Jan 2009
+Requirements: Latest Symphony 2 build
+
+Replacement for the standard taglist field in Symphony. Includes a limiting value to prevent suggestions
+from becoming too many, and sorting options.
+
+[INSTALLATION]
+
+1. Upload the 'advancedtaglist' folder in this archive to your Symphony 'extensions' folder.
+
+2. Enable it by selecting the "Advanced Taglist", choose Enable from the with-selected menu, then click Apply.
+
+3. Add the "Advanced Taglist" field to your sections

@@ -1,0 +1,27 @@
+Downloadable Page Type
+------------------------------------
+
+Version: 0.1
+Author: Andrew Shooner (ashooner@gmail.com)
+Build Date: June 30th 2009
+Requirements: Symphony 2.0.3.
+
+[ACKNOWLEDGMENTS]
+	This extension is based directly on Alistair Kearney's(alistair@symphony21.com) Content Type Mappings extension.
+
+[NOTES]
+ 	This extension only sets the Content-Disposition header. It does *not* set the Content-Type.
+
+	The extension allows a page to be downloaded with a file extension pulled from its page type. When this extension is enabled, anypage with a page type that begins with a '.' will be downloaded as:
+
+ 	{page handle}.{page type}
+
+	So a page with handle 'form-data' and a pagetype of '.csv' will download as 'form-data.csv'.
+
+
+[INSTALLATION]
+
+	1. Enable the extension
+	2. Give the symphony page to download a page type with a '.' - E.g: ".csv"
+	3. When the page is requested, it will return a header as "Content-Disposition: attachment; filename='$page-handle'&'$page-type', which should result in a download for contemporary browsers.
+
